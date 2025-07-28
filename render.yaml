@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: fastapi-demo
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    plan: free
